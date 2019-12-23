@@ -7,6 +7,7 @@
             <tr class="tr-format text-center">
                 <th class="pd-tb">Mã hoá đơn</th>
                 <th class="pd-tb">Mã sản phẩm</th>
+                <th class="pd-tb">Tên sản phẩm</th>
                 <th class="pd-tb">Số lượng</th>
                 <th class="pd-tb">Tổng tiền</th>
             </tr>
@@ -17,6 +18,7 @@
                     <tr>
                         <td class="pd-tb">'.$value->id_bill.'</td>
                         <td class="pd-tb">'.$value->id_product.'</td>
+                        <td class="pd-tb">'.$value->nameProduct.'</td>
                         <td class="pd-tb">'.$value->number.'</td>
                         <td class="pd-tb">'.$value->total.'</td>
                     </tr>

@@ -123,7 +123,7 @@
 
                 <div>
                   <a href="index.php"><h1><i class="fa fa-book"></i> BookL0V3!</h1></a>
-                  <p>Copyright &copy; 2014 - 2018. Đại học Nguyễn Tất Thành</p>
+                  <p>Copyright &copy; 2018-2020 Đại học Bách Khoa Hà Nội</p>
                 </div>
               </div>
             </form>

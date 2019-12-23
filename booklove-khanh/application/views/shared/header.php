@@ -58,16 +58,7 @@
 						<i class="fa fa-google-plus" ></i>
 					</a>
 				</li>
-				<li>
-					<a href="https://www.skype.com/" id="skype">
-						<i class="fa fa-skype" ></i>
-					</a>
-				</li>
-				<li>
-					<a href="https://twitter.com/?lang=vi" id="tw">
-						<i class="fa fa-twitter" ></i>
-					</a>
-				</li>
+				
 			</ul>
 		</div>
 	</div>

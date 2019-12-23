@@ -21,9 +21,9 @@
 		{
 			//Kiểm tra có id truyền vào không. Nếu không thì lấy toàn bộ
 			if($id == null)
-				$sql = "SELECT * FROM billdetail AS b";
+				$sql = "SELECT billdetail.*, product.nameProduct FROM billdetail, product where billdetail.id_product=product.id_product";
 			else
-				$sql = "SELECT * FROM billdetail AS b WHERE id_bill = {$id} ";
+				$sql = "SELECT billdetail.*, product.nameProduct FROM billdetail, product where billdetail.id_product=product.id_product and id_bill = {$id} ";
 
 			//Thực thi câu truy vấn
 			$q = $this->db->QueryResult($sql);
