@@ -1,0 +1,93 @@
+/* Phần CSS chung cho tất cả */
+.mg{
+	margin-bottom:20px;
+    margin-top:20px;
+}
+.pd{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#footer,
+#footer a{
+  color: #fff;
+}
+/* CSS dành cho back ground*/
+.bg-active{
+	color: #555;
+  cursor: default;
+  background-color: #fff;
+  border-bottom-color: transparent;
+}
+.bg-inverse{
+    background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
+  background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));
+  background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+}
+.bg-default{
+    background-image: -webkit-linear-gradient(top, #fff 0%, #f8f8f8 100%);
+  background-image:      -o-linear-gradient(top, #fff 0%, #f8f8f8 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f8f8f8));
+  background-image:         linear-gradient(to bottom, #fff 0%, #d9d9d9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+}
+.bg-img{
+	background: url('../../imgs/logo-icon/bg-go.jpg') no-repeat;
+}
+.bg-menu{
+	background: url('../../imgs/logo-icon/bg-menu.png');
+}
+.bg-cart{
+	background-color: #E43F24;
+	color: #f1f1f1;
+}
+/* CSS dành cho menu */
+#menu{
+	float: right;
+	margin-bottom: 0px;
+}
+#menu li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+#fb{
+  color: #3b5998;
+}
+#googlep{
+  color: #ca4338;
+}
+#skype,#tw{
+  color: #0080FF;
+}
+#menu li a:hover{
+	color: #111;
+}
+/* css dành cho table */
+.tb-format{
+  color: #333333;
+  width: 100%;
+  border-collapse: collapse;
+}
+.tr-format{
+  color: White;
+  background-color: #507CD1;
+  font-weight: bold;
+}
+tr:nth-child(even) td{background: #EAEFFB}
+.img-s{
+  height: 100px;
+  width: auto;
+}
+.pd-tb{
+  padding: 10px 0 10px 5px;
+}
